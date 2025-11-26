@@ -90,12 +90,12 @@ P(x) \propto \underbrace{\mathcal{L}(x)^{\alpha}}_{\text{残差吸引 (利用)}}
 
 该概率场由以下两个关键分量共同驱动：
 
-#### 1\. 残差驱动 (Residual Exploitation): $\mathcal{L}(x)^{\alpha}$
+#### 1\. 残差驱动 (Residual Exploitation):
 
   * **机制**：$\mathcal{L}(x)$ 代表 PDE 在点 $x$ 处的物理残差绝对值。指数 $\alpha$ (聚焦系数，通常取 $1.5 \sim 2.0$) 用于控制对高误差区域的敏感度。
   * **物理含义**：这一项实现了**难例挖掘 (Hard Example Mining)**。算法会自动赋予激波锋面、奇点或边界层等高误差区域更高的权重，引导计算资源集中“攻克”模型拟合最差的区域。
 
-#### 2\. 基于 KNN 的逆密度排斥 (KNN-based Repulsion): $(\hat{\rho} + \epsilon)^{-1}$
+#### 2\. 基于 KNN 的逆密度排斥 (KNN-based Repulsion): 
 
 为了保证样本的多样性，我们利用 **k-近邻 (k-Nearest Neighbors)** 算法构建了一个**无网格 (Mesh-free)** 的局部密度估计量 $\hat{\rho}_{\text{KNN}}(x)$：
 
