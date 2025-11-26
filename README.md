@@ -249,6 +249,6 @@ pip install numpy torch scipy matplotlib
 | [徐阳 (Xu Yang)](https://github.com/XuYang-06) | 陈宏涛 (Chen Hongtao) | 杨佳宁 (Yang Jianing ) | 郭科文 (Guo Kewen) |
 | :---: | :---: | :---: | :---: |
 | *吉林大学* | *吉林大学* | *吉林大学* | *吉林大学* |
-| CV, PINN, 具身智能 | 深度学习, PINN | 深度学习, PINN | 深度学习, PINN |
+| CV, PINN | 深度学习, PINN | 深度学习, PINN | 深度学习, PINN |
 
 ---
