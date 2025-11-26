@@ -103,7 +103,7 @@ U_{\mathrm{rep}}(x)
 
 其中 $\lambda>0$ 控制排斥强度。
 
-从信息论角度看，$\log \rho(x)$ 与分布熵 $\mathcal{H}(q) = -\int q(x)\log q(x)\,dx$ 密切相关。
+从信息论角度看， $\log \rho(x)$ 与分布熵 $\mathcal{H}(q) = -\int q(x)\log q(x)\,dx$ 密切相关。
 
 在势能中加入 $U_{\mathrm{rep}}(x) = \lambda \log \rho(x)$ 等价于对采样分布施加一种“熵正则化”（entropy regularization）
 
