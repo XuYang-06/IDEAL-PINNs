@@ -103,13 +103,15 @@ U_{\mathrm{rep}}(x)
 
 其中 $\lambda>0$ 控制排斥强度。
 
-从信息论角度看，$\log \rho(x)$ 与分布熵 $\mathcal{H}(q) = -\int q\log q$ 密切相关：
-在势能中加入 $\log \rho(x)$，等价于对采样分布施加一种**熵正则化 (entropy regularization)**——
+从信息论角度看，$\log \rho(x)$ 与分布熵 $\mathcal{H}(q) = -\int q(x)\log q(x)\,dx$ 密切相关。
 
-* **高密度区域**：$\rho(x)$ 大，$\log\rho(x)$ 大，$U_{\mathrm{rep}}(x)$ 被放大 → 粒子“待在这里”变得不划算；
-* **低密度区域**：$\rho(x)$ 小，$U_{\mathrm{rep}}(x)$ 较小 → 粒子更愿意向稀疏区域扩散。
+在势能中加入 $U_{\mathrm{rep}}(x) = \lambda \log \rho(x)$ 等价于对采样分布施加一种“熵正则化”（entropy regularization）
 
-因此，$U_{\mathrm{rep}}$ 实际上在**显式鼓励高熵、高多样性**的采样分布。
+- **高密度区域**： $\rho(x)$  大， $\log\rho(x)$  大， $U_{\mathrm{rep}}(x)$ 被放大；
+- **低密度区域**： $\rho(x)$  小， $U_{\mathrm{rep}}(x)$  较小。
+
+因此， $U_{\mathrm{rep}}$  实际上在**显式鼓励高熵、高多样性**的采样分布。
+
 
 ---
 
