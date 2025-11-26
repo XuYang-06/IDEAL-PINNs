@@ -75,7 +75,7 @@ d x(t)
 
 其中 $W(t)$ 是标准 Wiener 过程，$\eta>0$ 控制噪声强度。
 
-### 2.1 物理势能：朝高残差区域“吸引”
+### 2.1 物理势能：高参差吸引力
 
 我们首先定义**物理势能**：
 
@@ -226,7 +226,7 @@ P(x) \propto
 pip install numpy torch scipy matplotlib
 ```
 
-## 引用 (Citation)
+## 8. 引用 (Citation)
 
 如果您觉得 **IDEAL-PINNs** 对您的研究有帮助，请考虑引用：
 
@@ -244,9 +244,9 @@ pip install numpy torch scipy matplotlib
 ---
 
 
-## 8. 作者 (Authors)
+## 9. 作者 (Authors)
 
-| [徐阳 (Xu Yang)](https://www.google.com/search?q=https://github.com/XuYang-06) | 陈宏涛 (Chen Hongtao) | 杨佳宁 (Yang Jianing ) | 郭科文 (Guo Kewen) |
+| [徐阳 (Xu Yang)](https://github.com/XuYang-06) | 陈宏涛 (Chen Hongtao) | 杨佳宁 (Yang Jianing ) | 郭科文 (Guo Kewen) |
 | :---: | :---: | :---: | :---: |
 | *吉林大学* | *吉林大学* | *吉林大学* | *吉林大学* |
 | CV, PINN, 具身智能 | 深度学习, PINN | 深度学习, PINN | 深度学习, PINN |
