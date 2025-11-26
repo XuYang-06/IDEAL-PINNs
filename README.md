@@ -1,4 +1,4 @@
-# IDEAL-PINNs: 面向物理信息神经网络的“理想”采样策略
+# IDEAL-PINNs: 一种基于朗之万动力学与逆密度势能的进化采样方法
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=flat&logo=pytorch)](https://pytorch.org/)
@@ -73,7 +73,7 @@ d x(t)
   + \sqrt{2\eta}\, dW(t),
 ```
 
-其中 $W(t)$ 是标准 Wiener 过程，$\eta>0$ 控制噪声强度。
+其中 $W(t)$ 是标准 Wiener 过程， $\eta>0$  控制噪声强度。
 
 ### 2.1 物理势能：高参差吸引力
 
